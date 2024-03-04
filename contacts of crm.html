@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced CRM</title>
+    <link rel="stylesheet" href="crm.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Relationship Management</h1>
+        
+        
+        <!-- Add Contact Form -->
+        <div class="form">
+            <h2>Add Contact</h2>
+            <input type="text" id="contact" placeholder="Contact">
+            <button onclick="addContact()">Add Contact</button>
+        </div>
+
+        <!-- Contact List -->
+        <div class="contact-list">
+            <h2>Contact List</h2>
+            <ul id="contact-list">
+                <!-- Contact items will be added dynamically here -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="crm.js"></script>
+</body>
+</html>
